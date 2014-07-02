@@ -13,6 +13,8 @@ def custom_tabs(tab_dict, filename="output.xslx",finish=True,autosize=False, tab
     # graphlist is a list of dictionaries describing what graphs to make. The dictionaries are as follows: 
     # {tabname: tab name, tablename: name of table, xvar: x variable, type: graph type, series: list of series, number:entries to use, entered in "x:y", 
     # "x:", or ":y", where x and y are integers. x:y will get from x to y, x: will get from x to end, :y from start to y (optional input), 'gname': optional input for graph name}
+    #woop woop
+    
     workbook = xlsxwriter.Workbook(filename)
     graphcounter = 0
     mergedheaderformats = format_merged_header(workbook)
